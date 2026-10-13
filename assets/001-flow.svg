@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-label="Через Google: твоя карта, Google сверяет страну банка, отказ. Через Apple: подарочная карта App Store США, Apple ID США платит балансом, YouTube без рекламы.">
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#A1A1AA"/>
+    </marker>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3F3F46"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="859" height="399" fill="#FFFFFF" stroke="#E4E4E7"/>
+
+  <text x="40" y="58" fill="#71717A" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" letter-spacing="2.5">ЧЕРЕЗ GOOGLE</text>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle">
+    <rect x="40" y="76" width="220" height="88" fill="#FFFFFF" stroke="#D4D4D8"/>
+    <text x="150" y="113" fill="#52525B">Твоя карта</text>
+    <text x="150" y="143" fill="#A1A1AA" font-size="17">Армения, Беларусь</text>
+    <line x1="266" y1="120" x2="314" y2="120" stroke="#A1A1AA" stroke-width="2" marker-end="url(#g)"/>
+    <rect x="320" y="76" width="220" height="88" fill="#FFFFFF" stroke="#D4D4D8"/>
+    <text x="430" y="113" fill="#52525B">Google</text>
+    <text x="430" y="143" fill="#A1A1AA" font-size="17">сверяет страну банка</text>
+    <line x1="546" y1="120" x2="594" y2="120" stroke="#A1A1AA" stroke-width="2" marker-end="url(#g)"/>
+    <rect x="600" y="76" width="220" height="88" fill="#F4F4F5" stroke="#D4D4D8"/>
+    <text x="710" y="113" fill="#71717A">Отказ</text>
+    <text x="710" y="143" fill="#A1A1AA" font-size="17">нужна карта страны</text>
+  </g>
+
+  <line x1="40" y1="206" x2="820" y2="206" stroke="#E4E4E7" stroke-width="1"/>
+
+  <text x="40" y="254" fill="#111113" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2.5">ЧЕРЕЗ APPLE</text>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle">
+    <rect x="40" y="272" width="220" height="88" fill="#FFFFFF" stroke="#52525B"/>
+    <text x="150" y="309" fill="#111113">Подарочная карта</text>
+    <text x="150" y="339" fill="#71717A" font-size="17">App Store США</text>
+    <line x1="266" y1="316" x2="314" y2="316" stroke="#3F3F46" stroke-width="2" marker-end="url(#k)"/>
+    <rect x="320" y="272" width="220" height="88" fill="#FFFFFF" stroke="#52525B"/>
+    <text x="430" y="309" fill="#111113">Apple ID США</text>
+    <text x="430" y="339" fill="#71717A" font-size="17">платит балансом</text>
+    <line x1="546" y1="316" x2="594" y2="316" stroke="#3F3F46" stroke-width="2" marker-end="url(#k)"/>
+    <rect x="600" y="272" width="220" height="88" fill="#FFFFFF" stroke="#111113" stroke-width="2.5"/>
+    <text x="710" y="309" fill="#111113" font-weight="600">YouTube</text>
+    <text x="710" y="339" fill="#3F3F46" font-size="17">без рекламы</text>
+  </g>
+</svg>
